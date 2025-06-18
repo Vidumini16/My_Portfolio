@@ -117,7 +117,7 @@ export default function Project() {
         displayName: 'Course Registration Application'
       },
       'E-commerce': {
-        image: '/images/repos/e-commerce.png',
+        image: '/images/repos/commerce.png',
         description: 'A modern E-commerce web application featuring product browsing, shopping cart, secure checkout, and order management. Built with a scalable architecture and a focus on user experience.',
         displayName: 'E-commerce Web Application'
       },
