@@ -53,6 +53,7 @@ export default function NavBar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-gray-900 px-4 pb-4 pt-2 space-y-2">
+          <Link href="/" className="block py-2 px-2 rounded hover:bg-gray-800 hover:text-cyan-400" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link href="/about" className="block py-2 px-2 rounded hover:bg-gray-800 hover:text-cyan-400" onClick={() => setMenuOpen(false)}>About</Link>
           <Link href="/projects" className="block py-2 px-2 rounded hover:bg-gray-800 hover:text-cyan-400" onClick={() => setMenuOpen(false)}>Projects</Link>
           <Link href="/education" className="block py-2 px-2 rounded hover:bg-gray-800 hover:text-cyan-400" onClick={() => setMenuOpen(false)}>Education</Link>
