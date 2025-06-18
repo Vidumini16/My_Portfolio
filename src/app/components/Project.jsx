@@ -121,8 +121,8 @@ export default function Project() {
         description: 'A modern E-commerce web application featuring product browsing, shopping cart, secure checkout, and order management. Built with a scalable architecture and a focus on user experience.',
         displayName: 'E-commerce Web Application'
       },
-      'BookReveiw': {
-        image: '/images/repos/Book-Review-Web.png',
+      'BookReview': {
+        image: '/images/repos/BookReview.jpg',
         description: 'This Book Review Application allows users to view, add, edit, and delete book reviews. Each review includes the book title, author, rating (in stars), and a detailed review text. The reviews are stored in a backend database and are displayed dynamically on the frontend.',
         displayName: 'Book Review Web'
       },
@@ -135,6 +135,12 @@ export default function Project() {
         image: '/images/repos/Shopping_Cart.jpg',
         description: 'A fully responsive To-Do List application built using the MERN (MongoDB, Express, React, Node.js) stack. This application enables users to manage their tasks effectively with features like adding, editing, deleting, and marking tasks as complete/incomplete.',
         displayName: 'Shopping Cart',
+        techStack: [
+          'HTML5',
+          'CSS3',
+          'JavaScript',
+          'PHP'
+         ]
       },
       'notesApp': {
         image: '/images/repos/notesApp.png',
@@ -142,11 +148,11 @@ export default function Project() {
         displayName: 'Mobile Notes App',
         homepage: 'https://to-do-list-eight-coral-95.vercel.app/'
       },
-      'BookReview': {
-        image: '/images/repos/BookReview.jpg',
-        description: 'This project implements a simple monitoring system to track server performance metrics such as CPU usage, memory usage, and disk space. It triggers email alerts when usage exceeds predefined thresholds and logs metrics for analysis.',
-        displayName: 'Book Review System',
-      },
+      // 'BookReview': {
+      //   image: '/images/repos/BookReview.jpg',
+      //   description: 'This project implements a simple monitoring system to track server performance metrics such as CPU usage, memory usage, and disk space. It triggers email alerts when usage exceeds predefined thresholds and logs metrics for analysis.',
+      //   displayName: 'Book Review System',
+      // },
       'PHP-Login-System' : {
        image: '/images/repos/PHP-Login-System.jpg',
         description: 'This ERP system is a web application built with PHP and MySQL to manage business operations. It includes features for customer management, inventory control, and reporting, showcasing CRUD operations and report generation.',
@@ -162,34 +168,34 @@ export default function Project() {
         description: 'A simple car game developed using Kotlin for the Mobile App Development module. The red-colored formula car must survive without crashing into the yellow-colored cars, and the user can gain scores. The high score is displayed',
         displayName: 'Simple Car Game',
       },
-      'Android-Studio-SimpleFoodApp' : {
-        image: '/images/repos/Android-Studio-SimpleFoodApp.png',
-        description: 'A Simple Food App using Kotlin Language',
-        displayName: 'Simple Food App',
-      },
-      'Shoping_Cart': {
-        image: '/images/repos/shoping_cart.png',
-        description: 'A simple shopping cart application allowing users to add, remove, and update products in their cart, with a responsive UI and persistent state.',
-        displayName: 'Shopping Cart',
-        techStack: [
-          'HTML5',
-          'CSS3',
-          'JavaScript',
-          'PHP'
-        ]
-      },
-      'Online-Video-Browsing-System-LoginUI': {
-        image: '/images/repos/Online-Video-Browsing-System-LoginUI.png',
-        description: 'Design LoginUI for web application using PHP and MySQL with OOP concepts.',
-        displayName: 'PHP Login System',
-        techStack: [
-          'PHP',
-          'MySQL',
-          'HTML5',
-          'CSS3',
-          'OOP Concepts'
-        ]
-      },
+      // 'Android-Studio-SimpleFoodApp' : {
+      //   image: '/images/repos/Android-Studio-SimpleFoodApp.png',
+      //   description: 'A Simple Food App using Kotlin Language',
+      //   displayName: 'Simple Food App',
+      // },
+      // 'Shoping_Cart': {
+      //   image: '/images/repos/shoping_cart.png',
+      //   description: 'A simple shopping cart application allowing users to add, remove, and update products in their cart, with a responsive UI and persistent state.',
+      //   displayName: 'Shopping Cart',
+      //   techStack: [
+      //     'HTML5',
+      //     'CSS3',
+      //     'JavaScript',
+      //     'PHP'
+      //   ]
+      // },
+      // 'Online-Video-Browsing-System-LoginUI': {
+      //   image: '/images/repos/Online-Video-Browsing-System-LoginUI.png',
+      //   description: 'Design LoginUI for web application using PHP and MySQL with OOP concepts.',
+      //   displayName: 'PHP Login System',
+      //   techStack: [
+      //     'PHP',
+      //     'MySQL',
+      //     'HTML5',
+      //     'CSS3',
+      //     'OOP Concepts'
+      //   ]
+      // },
       
       
     };
@@ -616,10 +622,6 @@ export default function Project() {
                                           </div>
                                           <div className="flex items-center">
                                             <SiPostman className="text-[#FF6C37] text-xl mr-2" />
-                                            <span>Postman</span>
-                                          </div>
-                                          <div className="flex items-center">
-                                            <FaServer className="text-[#FF6C37] text-xl mr-2" />
                                             <span>REST API</span>
                                           </div>
                                           <div className="flex items-center">
@@ -699,48 +701,6 @@ export default function Project() {
                                         </div>
                                       </div>
                                     </>
-                                  ) : repo.name === 'server-monitoring-system' ? (
-                                    <>
-                                      <p>This project implements a simple monitoring system to track server performance metrics such as CPU usage, memory usage, and disk space. It triggers email alerts when usage exceeds predefined thresholds and logs metrics for analysis.</p>
-                                      
-                                      <div className="mt-2">
-                                        <strong>Tech Stack:</strong>
-                                        <div className="grid grid-cols-2 gap-2 mt-2">
-                                          <div className="flex items-center">
-                                            <SiPython className="text-[#3776AB] text-xl mr-2" />
-                                            <span>Python</span>
-                                          </div>
-                                          <div className="flex items-center">
-                                            <FaServer className="text-[#FF6C37] text-xl mr-2" />
-                                            <span>Server Monitoring</span>
-                                          </div>
-                                          <div className="flex items-center">
-                                            <FaDatabase className="text-[#336791] text-xl mr-2" />
-                                            <span>Logging</span>
-                                          </div>
-                                          <div className="flex items-center">
-                                            <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                                              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                                            </svg>
-                                            <span>Email Alerts</span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </>
-                                  )  : repo.name === 'Android-Studio-SimpleFoodApp' ? (
-                                    <>
-                                      <p>A Simple Food App using Kotlin Language.</p>
-                                      
-                                      <div className="mt-2">
-                                        <strong>Tech Stack:</strong>
-                                        <div className="grid grid-cols-2 gap-2 mt-2">
-                                          <div className="flex items-center">
-                                            <SiKotlin className="text-[#7F52FF] text-xl mr-2" />
-                                            <span>Kotlin</span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </>
                                   ) : repo.name === 'Interactix' ? (
                                     <>
                                       <p>Redesigning the Vijitha Yapa Bookstore website, Sri Lanka's renowned literary retailer, to enhance user experience and better reflect its prestigious reputation.</p>
@@ -779,6 +739,73 @@ export default function Project() {
                                               <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/>
                                             </svg>
                                             <span>User Research</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </>
+                                  ) : repo.name === 'Shopping_Cart' ? (
+                                    <>
+                                      <p>A fully responsive Shopping Cart application built using HTML5, CSS3, JavaScript, and PHP. This application enables users to add, edit, and remove items from their cart with a clean and responsive UI.</p>
+                                      <div className="mt-2">
+                                        <strong>Tech Stack:</strong>
+                                        <div className="grid grid-cols-2 gap-2 mt-2">
+                                          <div className="flex items-center">
+                                            {/* HTML5 icon */}
+                                            <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="#E44D26">
+                                              <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm16.44 6.75l-.232 2.718-10.059-.003-.23 2.622 10.059.003-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/>
+                                            </svg>
+                                            <span>HTML5</span>
+                                          </div>
+                                          <div className="flex items-center">
+                                            {/* CSS3 icon */}
+                                            <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="#1572B6">
+                                              <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.003-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/>
+                                            </svg>
+                                            <span>CSS3</span>
+                                          </div>
+                                          <div className="flex items-center">
+                                            <SiJavascript className="text-[#F7DF1E] text-xl mr-2" />
+                                            <span>JavaScript</span>
+                                          </div>
+                                          <div className="flex items-center">
+                                            <SiPhp className="text-[#777BB4] text-xl mr-2" />
+                                            <span>PHP</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </>
+                                  ) : repo.name === 'PHP-Login-System' ? (
+                                    <>
+                                      <p>This ERP system is a web application built with PHP and MySQL to manage business operations. It includes features for customer management, inventory control, and reporting, showcasing CRUD operations and report generation.</p>
+                                      <div className="mt-2">
+                                        <strong>Tech Stack:</strong>
+                                        <div className="grid grid-cols-2 gap-2 mt-2">
+                                          <div className="flex items-center">
+                                            <SiPhp className="text-[#777BB4] text-xl mr-2" />
+                                            <span>PHP</span>
+                                          </div>
+                                          <div className="flex items-center">
+                                            <FaDatabase className="text-[#336791] text-xl mr-2" />
+                                            <span>MySQL</span>
+                                          </div>
+                                          <div className="flex items-center">
+                                            {/* HTML5 icon */}
+                                            <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="#E44D26">
+                                              <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm16.44 6.75l-.232 2.718-10.059-.003-.23 2.622 10.059.003-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/>
+                                            </svg>
+                                            <span>HTML5</span>
+                                          </div>
+                                          <div className="flex items-center">
+                                            {/* CSS3 icon */}
+                                            <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="#1572B6">
+                                              <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.003-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/>
+                                            </svg>
+                                            <span>CSS3</span>
+                                          </div>
+                                          <div className="flex items-center">
+                                            {/* CRUD icon (simple database icon) */}
+                                            <FaDatabase className="text-[#4DB33D] text-xl mr-2" />
+                                            <span>CRUD Operations</span>
                                           </div>
                                         </div>
                                       </div>
