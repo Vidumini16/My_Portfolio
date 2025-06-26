@@ -70,7 +70,7 @@ export default function Home() {
             </div>
             
             <a
-              href="/CV_Vidumini_Chandrasekara.pdf"
+              href="/Vidumini_Chandrasekara_CV.pdf"
               download
               className="bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-900 hover:from-cyan-600 hover:to-blue-800 text-cyan-300 font-semibold py-2 px-5 rounded-full transition text-base shadow-lg border border-blue-800"
             >
