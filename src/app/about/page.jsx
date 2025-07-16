@@ -7,13 +7,18 @@ import Education from '../components/Education';
 // Import programming language icons
 import { 
   SiJavascript, SiReact, SiNodedotjs, SiHtml5, SiCss3, SiMongodb,
-  SiMysql, SiTailwindcss, SiC, SiCplusplus, SiPhp, SiBootstrap, SiFigma, SiSelenium, SiSonarqube, SiGit, SiTrello
+  SiMysql, SiTailwindcss, SiC, SiCplusplus, SiPhp, SiBootstrap, SiFigma, SiSelenium, SiSonarqube, SiGit, SiTrello,SiPostman
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
 export default function About() {
   // Define programming languages with skill levels
   const programmingLanguages = [
+    { name: "Selenium", icon: SiSelenium, color: "#43B02A", proficiency: 85 },
+    { name: "SonarQube", icon: SiSonarqube, color: "#F37020", proficiency: 84 },
+    { name: "Trello", icon: SiTrello, color: "#0079BF", proficiency: 90 },
+    { name: "Postman", icon: SiPostman, color: "#FF0000", proficiency: 90 },
+    { name: "Java", icon: FaJava, color: "#007396", proficiency: 70 },
     { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E", proficiency: 90 },
     { name: "React", icon: SiReact, color: "#61DAFB", proficiency: 90 },
     { name: "Node.js", icon: SiNodedotjs, color: "#339933", proficiency: 88 },
@@ -28,10 +33,8 @@ export default function About() {
     { name: "C", icon: SiC, color: "#A8B9CC", proficiency: 60 },
     { name: "C++", icon: SiCplusplus, color: "#00599C", proficiency: 50 },
     { name: "PHP", icon: SiPhp, color: "#777BB4", proficiency: 80 },
-    { name: "Java", icon: FaJava, color: "#007396", proficiency: 70 },
-    { name: "Selenium", icon: SiSelenium, color: "#43B02A", proficiency: 85 },
-    { name: "SonarQube", icon: SiSonarqube, color: "#F37020", proficiency: 70 },
-    { name: "Trello", icon: SiTrello, color: "#0079BF", proficiency: 85 }
+   
+    
   ];
   
   return (

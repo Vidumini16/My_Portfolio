@@ -47,7 +47,7 @@ export default function Home() {
 
             <p className="mt-4 text-2xl sm:text-3xl font-light text-blue-200">
               <TypeAnimation
-                sequence={['Full Stack Developer', 2000, 'Quality Assurance Engineer', 2000]}
+                sequence={['Quality Assurance Engineer', 2000, 'Full Stack Developer', 2000]}
                 wrapper="span"
                 speed={40}
                 repeat={Infinity}
