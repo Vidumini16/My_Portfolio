@@ -1,11 +1,10 @@
 {
   "version": 2,
+  "framework": "nextjs",
   "buildCommand": "next build",
   "devCommand": "next dev",
   "installCommand": "npm install",
-  "framework": "nextjs",
   "outputDirectory": ".next",
-  "public": true,
   "headers": [
     {
       "source": "/(.*)",
@@ -33,11 +32,5 @@
         }
       ]
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
   ]
-} 
+}
